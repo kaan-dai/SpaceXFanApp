@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>820285072639-89gb2qobgjuie3fqnck8al2kdi4mn81u.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.820285072639-89gb2qobgjuie3fqnck8al2kdi4mn81u</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBwL2myihtzTJ5T11yA97xHJ0C38WltmAw</string>
+	<key>GCM_SENDER_ID</key>
+	<string>820285072639</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.daikaan.SpaceX-Fan-Application</string>
+	<key>PROJECT_ID</key>
+	<string>spacex-fan-382af</string>
+	<key>STORAGE_BUCKET</key>
+	<string>spacex-fan-382af.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:820285072639:ios:0bc40ce71ee34ea7c5d8ca</string>
+</dict>
+</plist>

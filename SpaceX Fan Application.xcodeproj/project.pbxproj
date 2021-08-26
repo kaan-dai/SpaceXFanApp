@@ -1,0 +1,794 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE88C9C626D3F3110001E300 /* Falcon9DetailPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE88C9C526D3F3110001E300 /* Falcon9DetailPageViewController.swift */; };
+		BEA0C46826D522DE002440B2 /* Falcon1DetailPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA0C46726D522DE002440B2 /* Falcon1DetailPageViewController.swift */; };
+		BEA0C46A26D522FA002440B2 /* FalconHeavyDetailPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA0C46926D522FA002440B2 /* FalconHeavyDetailPageViewController.swift */; };
+		BEA0C46C26D52310002440B2 /* StarshipDetailPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA0C46B26D52310002440B2 /* StarshipDetailPageViewController.swift */; };
+		BEA0C47026D553DC002440B2 /* CRS23DetailPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA0C46F26D553DC002440B2 /* CRS23DetailPageViewController.swift */; };
+		BEA0C47226D5544E002440B2 /* NROL85DetailPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA0C47126D5544E002440B2 /* NROL85DetailPageViewController.swift */; };
+		BEA0C47426D563AA002440B2 /* PolarDetailPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA0C47326D563AA002440B2 /* PolarDetailPageViewController.swift */; };
+		BEA0C47626D56A9E002440B2 /* STAR29DetailPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA0C47526D56A9E002440B2 /* STAR29DetailPageViewController.swift */; };
+		BEA0C47826D56ABB002440B2 /* STAR30DetailPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA0C47726D56ABB002440B2 /* STAR30DetailPageViewController.swift */; };
+		BEA0C47A26D56AC8002440B2 /* STAR31DetailPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA0C47926D56AC7002440B2 /* STAR31DetailPageViewController.swift */; };
+		BEA0C47C26D56AD9002440B2 /* NROL87DetailPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA0C47B26D56AD9002440B2 /* NROL87DetailPageViewController.swift */; };
+		BEA0C47E26D56AFC002440B2 /* Inspiration4DetailPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA0C47D26D56AFC002440B2 /* Inspiration4DetailPageViewController.swift */; };
+		BEA0C48026D56B13002440B2 /* Crew-3DetailPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA0C47F26D56B13002440B2 /* Crew-3DetailPageViewController.swift */; };
+		BEA0C48226D56B53002440B2 /* USSF-44DetailPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA0C48126D56B53002440B2 /* USSF-44DetailPageViewController.swift */; };
+		BEA0C48426D56CD0002440B2 /* Sarah1DetailPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA0C48326D56CD0002440B2 /* Sarah1DetailPageViewController.swift */; };
+		BEA0C48626D56CED002440B2 /* DARTDetailPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA0C48526D56CED002440B2 /* DARTDetailPageViewController.swift */; };
+		BEA0C48826D56D0F002440B2 /* Turksat5BDetailPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA0C48726D56D0F002440B2 /* Turksat5BDetailPageViewController.swift */; };
+		BEA0C48A26D56D5F002440B2 /* WorldViewLegionDetailPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA0C48926D56D5F002440B2 /* WorldViewLegionDetailPageViewController.swift */; };
+		BEA0C4AC26D57A93002440B2 /* LaunchData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA0C4AB26D57A93002440B2 /* LaunchData.swift */; };
+		BEA0C4AE26D57AC6002440B2 /* RocketData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA0C4AD26D57AC6002440B2 /* RocketData.swift */; };
+		BEE45A6C26CA576C00C5252B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE45A6B26CA576C00C5252B /* AppDelegate.swift */; };
+		BEE45A6E26CA576C00C5252B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE45A6D26CA576C00C5252B /* SceneDelegate.swift */; };
+		BEE45A7026CA576C00C5252B /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE45A6F26CA576C00C5252B /* WelcomeViewController.swift */; };
+		BEE45A7326CA576C00C5252B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEE45A7126CA576C00C5252B /* Main.storyboard */; };
+		BEE45A7526CA576D00C5252B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEE45A7426CA576D00C5252B /* Assets.xcassets */; };
+		BEE45A7826CA576D00C5252B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEE45A7626CA576D00C5252B /* LaunchScreen.storyboard */; };
+		BEE45A8326CA576D00C5252B /* SpaceX_Fan_ApplicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE45A8226CA576D00C5252B /* SpaceX_Fan_ApplicationTests.swift */; };
+		BEE45A8E26CA576D00C5252B /* SpaceX_Fan_ApplicationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE45A8D26CA576D00C5252B /* SpaceX_Fan_ApplicationUITests.swift */; };
+		BEE45AA026CA69B700C5252B /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE45A9F26CA69B700C5252B /* RegisterViewController.swift */; };
+		BEE45AA226CA69C500C5252B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE45AA126CA69C400C5252B /* LoginViewController.swift */; };
+		BEE45AA426CA931800C5252B /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE45AA326CA931800C5252B /* HomePageViewController.swift */; };
+		BEE45AA626CA9E3800C5252B /* RocketsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE45AA526CA9E3800C5252B /* RocketsViewController.swift */; };
+		BEE45AA826CA9E9A00C5252B /* UpcomingLauncesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE45AA726CA9E9A00C5252B /* UpcomingLauncesViewController.swift */; };
+		BEF1CBF026CBD6E800AE5A0C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BEF1CBEF26CBD6E800AE5A0C /* GoogleService-Info.plist */; };
+		BEF1CBF226CBDFFE00AE5A0C /* FavoriteRocketsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF1CBF126CBDFFE00AE5A0C /* FavoriteRocketsViewController.swift */; };
+		C146B1B0C91611D004E60363 /* Pods_SpaceX_Fan_Application.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12C422C390F061A30F888133 /* Pods_SpaceX_Fan_Application.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BEE45A7F26CA576D00C5252B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEE45A6026CA576C00C5252B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEE45A6726CA576C00C5252B;
+			remoteInfo = "SpaceX Fan Application";
+		};
+		BEE45A8A26CA576D00C5252B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEE45A6026CA576C00C5252B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEE45A6726CA576C00C5252B;
+			remoteInfo = "SpaceX Fan Application";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12C422C390F061A30F888133 /* Pods_SpaceX_Fan_Application.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpaceX_Fan_Application.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E8E9A423DE9F5F81EDEB41A /* Pods-SpaceX Fan Application.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpaceX Fan Application.debug.xcconfig"; path = "Target Support Files/Pods-SpaceX Fan Application/Pods-SpaceX Fan Application.debug.xcconfig"; sourceTree = "<group>"; };
+		4A896F3614270608C660B71D /* Pods-SpaceX Fan Application.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpaceX Fan Application.release.xcconfig"; path = "Target Support Files/Pods-SpaceX Fan Application/Pods-SpaceX Fan Application.release.xcconfig"; sourceTree = "<group>"; };
+		BE88C9C526D3F3110001E300 /* Falcon9DetailPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Falcon9DetailPageViewController.swift; sourceTree = "<group>"; };
+		BEA0C46726D522DE002440B2 /* Falcon1DetailPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Falcon1DetailPageViewController.swift; sourceTree = "<group>"; };
+		BEA0C46926D522FA002440B2 /* FalconHeavyDetailPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FalconHeavyDetailPageViewController.swift; sourceTree = "<group>"; };
+		BEA0C46B26D52310002440B2 /* StarshipDetailPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarshipDetailPageViewController.swift; sourceTree = "<group>"; };
+		BEA0C46F26D553DC002440B2 /* CRS23DetailPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRS23DetailPageViewController.swift; sourceTree = "<group>"; };
+		BEA0C47126D5544E002440B2 /* NROL85DetailPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NROL85DetailPageViewController.swift; sourceTree = "<group>"; };
+		BEA0C47326D563AA002440B2 /* PolarDetailPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolarDetailPageViewController.swift; sourceTree = "<group>"; };
+		BEA0C47526D56A9E002440B2 /* STAR29DetailPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STAR29DetailPageViewController.swift; sourceTree = "<group>"; };
+		BEA0C47726D56ABB002440B2 /* STAR30DetailPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STAR30DetailPageViewController.swift; sourceTree = "<group>"; };
+		BEA0C47926D56AC7002440B2 /* STAR31DetailPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STAR31DetailPageViewController.swift; sourceTree = "<group>"; };
+		BEA0C47B26D56AD9002440B2 /* NROL87DetailPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NROL87DetailPageViewController.swift; sourceTree = "<group>"; };
+		BEA0C47D26D56AFC002440B2 /* Inspiration4DetailPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inspiration4DetailPageViewController.swift; sourceTree = "<group>"; };
+		BEA0C47F26D56B13002440B2 /* Crew-3DetailPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Crew-3DetailPageViewController.swift"; sourceTree = "<group>"; };
+		BEA0C48126D56B53002440B2 /* USSF-44DetailPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "USSF-44DetailPageViewController.swift"; sourceTree = "<group>"; };
+		BEA0C48326D56CD0002440B2 /* Sarah1DetailPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sarah1DetailPageViewController.swift; sourceTree = "<group>"; };
+		BEA0C48526D56CED002440B2 /* DARTDetailPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DARTDetailPageViewController.swift; sourceTree = "<group>"; };
+		BEA0C48726D56D0F002440B2 /* Turksat5BDetailPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Turksat5BDetailPageViewController.swift; sourceTree = "<group>"; };
+		BEA0C48926D56D5F002440B2 /* WorldViewLegionDetailPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldViewLegionDetailPageViewController.swift; sourceTree = "<group>"; };
+		BEA0C4AB26D57A93002440B2 /* LaunchData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchData.swift; sourceTree = "<group>"; };
+		BEA0C4AD26D57AC6002440B2 /* RocketData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketData.swift; sourceTree = "<group>"; };
+		BEE45A6826CA576C00C5252B /* SpaceX Fan Application.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SpaceX Fan Application.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEE45A6B26CA576C00C5252B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BEE45A6D26CA576C00C5252B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BEE45A6F26CA576C00C5252B /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		BEE45A7226CA576C00C5252B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BEE45A7426CA576D00C5252B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEE45A7726CA576D00C5252B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BEE45A7926CA576D00C5252B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEE45A7E26CA576D00C5252B /* SpaceX Fan ApplicationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SpaceX Fan ApplicationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEE45A8226CA576D00C5252B /* SpaceX_Fan_ApplicationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceX_Fan_ApplicationTests.swift; sourceTree = "<group>"; };
+		BEE45A8426CA576D00C5252B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEE45A8926CA576D00C5252B /* SpaceX Fan ApplicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SpaceX Fan ApplicationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEE45A8D26CA576D00C5252B /* SpaceX_Fan_ApplicationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceX_Fan_ApplicationUITests.swift; sourceTree = "<group>"; };
+		BEE45A8F26CA576D00C5252B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEE45A9F26CA69B700C5252B /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		BEE45AA126CA69C400C5252B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		BEE45AA326CA931800C5252B /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		BEE45AA526CA9E3800C5252B /* RocketsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketsViewController.swift; sourceTree = "<group>"; };
+		BEE45AA726CA9E9A00C5252B /* UpcomingLauncesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingLauncesViewController.swift; sourceTree = "<group>"; };
+		BEF1CBEF26CBD6E800AE5A0C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BEF1CBF126CBDFFE00AE5A0C /* FavoriteRocketsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteRocketsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEE45A6526CA576C00C5252B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C146B1B0C91611D004E60363 /* Pods_SpaceX_Fan_Application.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEE45A7B26CA576D00C5252B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEE45A8626CA576D00C5252B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3454FF36D2ED094B0D71CEB3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12C422C390F061A30F888133 /* Pods_SpaceX_Fan_Application.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B6028E4D0F1F5D80A8BA1FF2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1E8E9A423DE9F5F81EDEB41A /* Pods-SpaceX Fan Application.debug.xcconfig */,
+				4A896F3614270608C660B71D /* Pods-SpaceX Fan Application.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BEE45A5F26CA576C00C5252B = {
+			isa = PBXGroup;
+			children = (
+				BEE45A6A26CA576C00C5252B /* SpaceX Fan Application */,
+				BEE45A8126CA576D00C5252B /* SpaceX Fan ApplicationTests */,
+				BEE45A8C26CA576D00C5252B /* SpaceX Fan ApplicationUITests */,
+				BEE45A6926CA576C00C5252B /* Products */,
+				B6028E4D0F1F5D80A8BA1FF2 /* Pods */,
+				3454FF36D2ED094B0D71CEB3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BEE45A6926CA576C00C5252B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEE45A6826CA576C00C5252B /* SpaceX Fan Application.app */,
+				BEE45A7E26CA576D00C5252B /* SpaceX Fan ApplicationTests.xctest */,
+				BEE45A8926CA576D00C5252B /* SpaceX Fan ApplicationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEE45A6A26CA576C00C5252B /* SpaceX Fan Application */ = {
+			isa = PBXGroup;
+			children = (
+				BEE45A6B26CA576C00C5252B /* AppDelegate.swift */,
+				BEE45A6D26CA576C00C5252B /* SceneDelegate.swift */,
+				BEE45A9D26CA581A00C5252B /* Models */,
+				BEE45A9E26CA583800C5252B /* Views */,
+				BEE45A9C26CA57F800C5252B /* Controllers */,
+				BEE45A7426CA576D00C5252B /* Assets.xcassets */,
+				BEE45A7926CA576D00C5252B /* Info.plist */,
+				BEF1CBEF26CBD6E800AE5A0C /* GoogleService-Info.plist */,
+			);
+			path = "SpaceX Fan Application";
+			sourceTree = "<group>";
+		};
+		BEE45A8126CA576D00C5252B /* SpaceX Fan ApplicationTests */ = {
+			isa = PBXGroup;
+			children = (
+				BEE45A8226CA576D00C5252B /* SpaceX_Fan_ApplicationTests.swift */,
+				BEE45A8426CA576D00C5252B /* Info.plist */,
+			);
+			path = "SpaceX Fan ApplicationTests";
+			sourceTree = "<group>";
+		};
+		BEE45A8C26CA576D00C5252B /* SpaceX Fan ApplicationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BEE45A8D26CA576D00C5252B /* SpaceX_Fan_ApplicationUITests.swift */,
+				BEE45A8F26CA576D00C5252B /* Info.plist */,
+			);
+			path = "SpaceX Fan ApplicationUITests";
+			sourceTree = "<group>";
+		};
+		BEE45A9C26CA57F800C5252B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BEE45A6F26CA576C00C5252B /* WelcomeViewController.swift */,
+				BEE45AA326CA931800C5252B /* HomePageViewController.swift */,
+				BEE45AA126CA69C400C5252B /* LoginViewController.swift */,
+				BEE45A9F26CA69B700C5252B /* RegisterViewController.swift */,
+				BEE45AA526CA9E3800C5252B /* RocketsViewController.swift */,
+				BEF1CBF126CBDFFE00AE5A0C /* FavoriteRocketsViewController.swift */,
+				BEE45AA726CA9E9A00C5252B /* UpcomingLauncesViewController.swift */,
+				BE88C9C526D3F3110001E300 /* Falcon9DetailPageViewController.swift */,
+				BEA0C46726D522DE002440B2 /* Falcon1DetailPageViewController.swift */,
+				BEA0C46926D522FA002440B2 /* FalconHeavyDetailPageViewController.swift */,
+				BEA0C46B26D52310002440B2 /* StarshipDetailPageViewController.swift */,
+				BEA0C46F26D553DC002440B2 /* CRS23DetailPageViewController.swift */,
+				BEA0C47126D5544E002440B2 /* NROL85DetailPageViewController.swift */,
+				BEA0C47326D563AA002440B2 /* PolarDetailPageViewController.swift */,
+				BEA0C47526D56A9E002440B2 /* STAR29DetailPageViewController.swift */,
+				BEA0C47726D56ABB002440B2 /* STAR30DetailPageViewController.swift */,
+				BEA0C47926D56AC7002440B2 /* STAR31DetailPageViewController.swift */,
+				BEA0C47B26D56AD9002440B2 /* NROL87DetailPageViewController.swift */,
+				BEA0C47D26D56AFC002440B2 /* Inspiration4DetailPageViewController.swift */,
+				BEA0C47F26D56B13002440B2 /* Crew-3DetailPageViewController.swift */,
+				BEA0C48126D56B53002440B2 /* USSF-44DetailPageViewController.swift */,
+				BEA0C48326D56CD0002440B2 /* Sarah1DetailPageViewController.swift */,
+				BEA0C48526D56CED002440B2 /* DARTDetailPageViewController.swift */,
+				BEA0C48726D56D0F002440B2 /* Turksat5BDetailPageViewController.swift */,
+				BEA0C48926D56D5F002440B2 /* WorldViewLegionDetailPageViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BEE45A9D26CA581A00C5252B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BEA0C4AB26D57A93002440B2 /* LaunchData.swift */,
+				BEA0C4AD26D57AC6002440B2 /* RocketData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BEE45A9E26CA583800C5252B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BEE45A7126CA576C00C5252B /* Main.storyboard */,
+				BEE45A7626CA576D00C5252B /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEE45A6726CA576C00C5252B /* SpaceX Fan Application */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEE45A9226CA576D00C5252B /* Build configuration list for PBXNativeTarget "SpaceX Fan Application" */;
+			buildPhases = (
+				7F0BD94B4A29A4B6F93895DF /* [CP] Check Pods Manifest.lock */,
+				BEE45A6426CA576C00C5252B /* Sources */,
+				BEE45A6526CA576C00C5252B /* Frameworks */,
+				BEE45A6626CA576C00C5252B /* Resources */,
+				88DF6AFA28934B5216CF92CF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SpaceX Fan Application";
+			productName = "SpaceX Fan Application";
+			productReference = BEE45A6826CA576C00C5252B /* SpaceX Fan Application.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BEE45A7D26CA576D00C5252B /* SpaceX Fan ApplicationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEE45A9526CA576D00C5252B /* Build configuration list for PBXNativeTarget "SpaceX Fan ApplicationTests" */;
+			buildPhases = (
+				BEE45A7A26CA576D00C5252B /* Sources */,
+				BEE45A7B26CA576D00C5252B /* Frameworks */,
+				BEE45A7C26CA576D00C5252B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEE45A8026CA576D00C5252B /* PBXTargetDependency */,
+			);
+			name = "SpaceX Fan ApplicationTests";
+			productName = "SpaceX Fan ApplicationTests";
+			productReference = BEE45A7E26CA576D00C5252B /* SpaceX Fan ApplicationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BEE45A8826CA576D00C5252B /* SpaceX Fan ApplicationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEE45A9826CA576D00C5252B /* Build configuration list for PBXNativeTarget "SpaceX Fan ApplicationUITests" */;
+			buildPhases = (
+				BEE45A8526CA576D00C5252B /* Sources */,
+				BEE45A8626CA576D00C5252B /* Frameworks */,
+				BEE45A8726CA576D00C5252B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEE45A8B26CA576D00C5252B /* PBXTargetDependency */,
+			);
+			name = "SpaceX Fan ApplicationUITests";
+			productName = "SpaceX Fan ApplicationUITests";
+			productReference = BEE45A8926CA576D00C5252B /* SpaceX Fan ApplicationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEE45A6026CA576C00C5252B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					BEE45A6726CA576C00C5252B = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					BEE45A7D26CA576D00C5252B = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = BEE45A6726CA576C00C5252B;
+					};
+					BEE45A8826CA576D00C5252B = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = BEE45A6726CA576C00C5252B;
+					};
+				};
+			};
+			buildConfigurationList = BEE45A6326CA576C00C5252B /* Build configuration list for PBXProject "SpaceX Fan Application" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BEE45A5F26CA576C00C5252B;
+			productRefGroup = BEE45A6926CA576C00C5252B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEE45A6726CA576C00C5252B /* SpaceX Fan Application */,
+				BEE45A7D26CA576D00C5252B /* SpaceX Fan ApplicationTests */,
+				BEE45A8826CA576D00C5252B /* SpaceX Fan ApplicationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEE45A6626CA576C00C5252B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEE45A7826CA576D00C5252B /* LaunchScreen.storyboard in Resources */,
+				BEF1CBF026CBD6E800AE5A0C /* GoogleService-Info.plist in Resources */,
+				BEE45A7526CA576D00C5252B /* Assets.xcassets in Resources */,
+				BEE45A7326CA576C00C5252B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEE45A7C26CA576D00C5252B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEE45A8726CA576D00C5252B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7F0BD94B4A29A4B6F93895DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpaceX Fan Application-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88DF6AFA28934B5216CF92CF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpaceX Fan Application/Pods-SpaceX Fan Application-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpaceX Fan Application/Pods-SpaceX Fan Application-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SpaceX Fan Application/Pods-SpaceX Fan Application-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEE45A6426CA576C00C5252B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEA0C48626D56CED002440B2 /* DARTDetailPageViewController.swift in Sources */,
+				BEE45A7026CA576C00C5252B /* WelcomeViewController.swift in Sources */,
+				BEA0C47426D563AA002440B2 /* PolarDetailPageViewController.swift in Sources */,
+				BEE45A6C26CA576C00C5252B /* AppDelegate.swift in Sources */,
+				BEA0C47A26D56AC8002440B2 /* STAR31DetailPageViewController.swift in Sources */,
+				BEA0C48826D56D0F002440B2 /* Turksat5BDetailPageViewController.swift in Sources */,
+				BEA0C47E26D56AFC002440B2 /* Inspiration4DetailPageViewController.swift in Sources */,
+				BEE45AA826CA9E9A00C5252B /* UpcomingLauncesViewController.swift in Sources */,
+				BEE45AA426CA931800C5252B /* HomePageViewController.swift in Sources */,
+				BEA0C46826D522DE002440B2 /* Falcon1DetailPageViewController.swift in Sources */,
+				BEE45A6E26CA576C00C5252B /* SceneDelegate.swift in Sources */,
+				BEA0C46A26D522FA002440B2 /* FalconHeavyDetailPageViewController.swift in Sources */,
+				BEE45AA226CA69C500C5252B /* LoginViewController.swift in Sources */,
+				BEA0C48A26D56D5F002440B2 /* WorldViewLegionDetailPageViewController.swift in Sources */,
+				BEE45AA026CA69B700C5252B /* RegisterViewController.swift in Sources */,
+				BEA0C48426D56CD0002440B2 /* Sarah1DetailPageViewController.swift in Sources */,
+				BEA0C48226D56B53002440B2 /* USSF-44DetailPageViewController.swift in Sources */,
+				BEF1CBF226CBDFFE00AE5A0C /* FavoriteRocketsViewController.swift in Sources */,
+				BEA0C4AC26D57A93002440B2 /* LaunchData.swift in Sources */,
+				BEA0C48026D56B13002440B2 /* Crew-3DetailPageViewController.swift in Sources */,
+				BEA0C47226D5544E002440B2 /* NROL85DetailPageViewController.swift in Sources */,
+				BEA0C47626D56A9E002440B2 /* STAR29DetailPageViewController.swift in Sources */,
+				BE88C9C626D3F3110001E300 /* Falcon9DetailPageViewController.swift in Sources */,
+				BEA0C46C26D52310002440B2 /* StarshipDetailPageViewController.swift in Sources */,
+				BEE45AA626CA9E3800C5252B /* RocketsViewController.swift in Sources */,
+				BEA0C4AE26D57AC6002440B2 /* RocketData.swift in Sources */,
+				BEA0C47026D553DC002440B2 /* CRS23DetailPageViewController.swift in Sources */,
+				BEA0C47C26D56AD9002440B2 /* NROL87DetailPageViewController.swift in Sources */,
+				BEA0C47826D56ABB002440B2 /* STAR30DetailPageViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEE45A7A26CA576D00C5252B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEE45A8326CA576D00C5252B /* SpaceX_Fan_ApplicationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEE45A8526CA576D00C5252B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEE45A8E26CA576D00C5252B /* SpaceX_Fan_ApplicationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BEE45A8026CA576D00C5252B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEE45A6726CA576C00C5252B /* SpaceX Fan Application */;
+			targetProxy = BEE45A7F26CA576D00C5252B /* PBXContainerItemProxy */;
+		};
+		BEE45A8B26CA576D00C5252B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEE45A6726CA576C00C5252B /* SpaceX Fan Application */;
+			targetProxy = BEE45A8A26CA576D00C5252B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BEE45A7126CA576C00C5252B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEE45A7226CA576C00C5252B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BEE45A7626CA576D00C5252B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEE45A7726CA576D00C5252B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BEE45A9026CA576D00C5252B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BEE45A9126CA576D00C5252B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEE45A9326CA576D00C5252B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E8E9A423DE9F5F81EDEB41A /* Pods-SpaceX Fan Application.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SpaceX Fan Application/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daikaan.SpaceX-Fan-Application";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BEE45A9426CA576D00C5252B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A896F3614270608C660B71D /* Pods-SpaceX Fan Application.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SpaceX Fan Application/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daikaan.SpaceX-Fan-Application";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BEE45A9626CA576D00C5252B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SpaceX Fan ApplicationTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daikaan.SpaceX-Fan-ApplicationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpaceX Fan Application.app/SpaceX Fan Application";
+			};
+			name = Debug;
+		};
+		BEE45A9726CA576D00C5252B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SpaceX Fan ApplicationTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daikaan.SpaceX-Fan-ApplicationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpaceX Fan Application.app/SpaceX Fan Application";
+			};
+			name = Release;
+		};
+		BEE45A9926CA576D00C5252B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SpaceX Fan ApplicationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daikaan.SpaceX-Fan-ApplicationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SpaceX Fan Application";
+			};
+			name = Debug;
+		};
+		BEE45A9A26CA576D00C5252B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SpaceX Fan ApplicationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daikaan.SpaceX-Fan-ApplicationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SpaceX Fan Application";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEE45A6326CA576C00C5252B /* Build configuration list for PBXProject "SpaceX Fan Application" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEE45A9026CA576D00C5252B /* Debug */,
+				BEE45A9126CA576D00C5252B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEE45A9226CA576D00C5252B /* Build configuration list for PBXNativeTarget "SpaceX Fan Application" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEE45A9326CA576D00C5252B /* Debug */,
+				BEE45A9426CA576D00C5252B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEE45A9526CA576D00C5252B /* Build configuration list for PBXNativeTarget "SpaceX Fan ApplicationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEE45A9626CA576D00C5252B /* Debug */,
+				BEE45A9726CA576D00C5252B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEE45A9826CA576D00C5252B /* Build configuration list for PBXNativeTarget "SpaceX Fan ApplicationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEE45A9926CA576D00C5252B /* Debug */,
+				BEE45A9A26CA576D00C5252B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEE45A6026CA576C00C5252B /* Project object */;
+}
